@@ -1,0 +1,6 @@
+{
+  "name": "LínguaViva - Idiomas & Inclusão",
+  "description": "Plataforma inclusiva e moderna de ensino de Libras, Espanhol e Inglês nas modalidades EAD, Integral e Híbrida para alunos e professores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
