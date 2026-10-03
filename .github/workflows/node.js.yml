@@ -10,6 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./newlba-main
+
     steps:
       - name: Baixar o código
         uses: actions/checkout@v4
@@ -19,6 +23,7 @@ jobs:
         with:
           node-version: 22.x
           cache: npm
+          cache-dependency-path: ./newlba-main/package-lock.json
 
       - name: Instalar dependências
         run: npm ci
