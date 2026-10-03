@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/newlba-principal/',
+    base: '/newlba-main/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
