@@ -26,7 +26,7 @@ jobs:
           cache-dependency-path: ./newlba-main/package-lock.json
 
       - name: Instalar dependências
-        run: npm ci
+        run: npm install
 
       - name: Fazer build do projeto
         run: npm run build
